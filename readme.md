@@ -15,3 +15,7 @@
 
 ### 参考网址 
 - https://www.liangzl.com/get-article-detail-10848.html
+
+### 扩展点 security-oauth2 学习
+
+https://github.com/liangxiaobo/test-security-oauth2
