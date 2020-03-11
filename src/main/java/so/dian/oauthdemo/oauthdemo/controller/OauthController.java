@@ -52,6 +52,7 @@ public class OauthController {
 
 
     /**
+     * 客户端 第一次发起请求，为了获取code.....
      *   重定向到请求 授权码的url
      * @return
      * @throws Exception
@@ -75,6 +76,7 @@ public class OauthController {
 
 
     /**
+     * 认证 服务端 处理 请求，返回code给客户端
      *   返回授权码
      * @param model
      * @param request
@@ -104,6 +106,7 @@ public class OauthController {
 
 
     /**
+     *  客户端向认证服务端发起请求， 根据 code 获取 token
      *   请求通过凭证
      * @param request
      * @return
@@ -135,6 +138,7 @@ public class OauthController {
     }
 
     /**
+     * 服务端接收 客户端 请求，返回 token
      *   返回通过凭证
      * @param request
      * @return
@@ -160,6 +164,7 @@ public class OauthController {
     }
 
     /**
+     * 客户端 向 服务端 发起 请求，根据tocken 获取资源
      * 请求资源
      * @param accessToken
      * @return
@@ -180,6 +185,7 @@ public class OauthController {
 
 
     /**
+     * 服务端 返回 资源，根据token 返回响应资源
      *  返回资源
      * @param request
      * @return
