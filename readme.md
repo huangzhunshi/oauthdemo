@@ -18,4 +18,4 @@
 
 ### 扩展点 security-oauth2 学习
 
-https://github.com/liangxiaobo/test-security-oauth2
+- https://github.com/liangxiaobo/test-security-oauth2
