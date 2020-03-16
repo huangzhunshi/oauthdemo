@@ -1,0 +1,11 @@
+security:
+  oauth2:
+    resource:
+      tokenInfoUri: http://localhost:8080/oauth/check_token
+      preferTokenInfo: true
+    client:
+      client-id: hou
+      client-secret: 123456
+      grant-type: password
+      scope: server
+      access-token-uri: http://localhost:8080/oauth/token
