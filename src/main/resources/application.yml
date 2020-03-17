@@ -1,11 +1,23 @@
-security:
-  oauth2:
-    resource:
-      tokenInfoUri: http://localhost:8080/oauth/check_token
-      preferTokenInfo: true
-    client:
-      client-id: hou
-      client-secret: 123456
-      grant-type: password
-      scope: server
-      access-token-uri: http://localhost:8080/oauth/token
+#security:
+#  oauth2:
+#    resource:
+#      tokenInfoUri: http://localhost:8080/oauth/check_token
+#      preferTokenInfo: true
+#    client:
+#      client-id: hou
+#      client-secret: 123456
+#      grant-type: password
+#      scope: server
+#      access-token-uri: http://localhost:8080/oauth/token
+#spring.redis.url=redis://localhost:6379
+#spring:
+#  redis:
+#    url: redis://127.0.0.1:6379
+#    password: 123
+#    database: 0
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123
+    database: 0

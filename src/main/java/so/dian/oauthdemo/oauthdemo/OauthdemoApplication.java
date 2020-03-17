@@ -13,8 +13,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 @SpringBootApplication
-@EnableAuthorizationServer // 告诉springcloud该服务是oauth2鉴权服务
-@EnableResourceServer  // 告诉springcloud该服务是oauth2也是资源服务，为了保护该类内的/user接口
+//@EnableAuthorizationServer // 告诉springcloud该服务是oauth2鉴权服务
+//@EnableResourceServer  // 告诉springcloud该服务是oauth2也是资源服务，为了保护该类内的/user接口
 @RestController
 
 public class OauthdemoApplication {
