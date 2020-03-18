@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("test")
 public class TestController {
 
-    @RequestMapping("order")
+    @RequestMapping("/order")
+    @ResponseBody
     public String order(){
         return "order";
     }

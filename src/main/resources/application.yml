@@ -21,3 +21,15 @@ spring:
     port: 6379
     password: 123
     database: 0
+
+auth-server: http://127.0.0.1:8080/ # 认证服务器地址
+#server:
+#  port: 7004
+security:
+  oauth2:
+    client:
+      client-id: clientId
+      client-secret: clientSecret
+    resource:
+      token-info-uri: ${auth-server}/oauth/check_token
+      userInfoUri: http://localhost:8080/user
